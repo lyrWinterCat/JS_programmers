@@ -1,6 +1,6 @@
 function solution(my_string, queries) {
     var answer = my_string;
-    console.log(111);
+    console.log("test");
     return answer;
 }
 
