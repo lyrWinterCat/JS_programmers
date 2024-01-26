@@ -1,5 +1,6 @@
 function solution(my_string, queries) {
     var test = my_string.charAt(2);
+
     var answer = my_string;
 
     console.log(test);
