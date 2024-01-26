@@ -1,9 +1,18 @@
 function solution(my_string, queries) {
-    var test = my_string.charAt(2);
-    var answer = my_string;
 
-    console.log(test);
-    return answer;
+    let newAnswer = my_string;
+    for (let i = 0; i < queries.length; i++) {
+        var answer="";
+        if(queries[i][0]!==0){
+            answer+=newAnswer.substring(0,queries[i][0]);
+        }
+        for (let j = queries[i][1]; j >= queries[i][0]; j--) {
+            answer+=newAnswer.charAt(j);
+        }
+        answer+=newAnswer.substring(queries[i][1]+1);
+        newAnswer=answer;
+    }
+    return newAnswer;
 }
 
-solution("rermgorpsam", [[2, 3], [0, 7], [5, 9], [6, 10]]);
+console.log(solution("rermgorpsam", [[2, 3], [0, 7], [5, 9], [6, 10]]));
