@@ -34,7 +34,7 @@ function solution(str_list) {
     return answer;
 }
 
-console.log(solution(["u", "u", "l", "r"]));
+// console.log(solution(["u", "u", "l", "r"]));
 // console.log(solution(["u", "u"]));
 
 function solution2(arr) {
@@ -44,3 +44,4 @@ function solution2(arr) {
     }
     return [];
 }
+console.log(solution2(["u", "u", "l", "r"]));
