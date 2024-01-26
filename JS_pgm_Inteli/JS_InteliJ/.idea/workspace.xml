@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dbafd92a-6414-403f-96ac-cf7872322073" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/pgm/level0/conditionString.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pgm/level0/reverseString.js" beforeDir="false" afterPath="$PROJECT_DIR$/pgm/level0/reverseString.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +52,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1706147355482</updated>
-      <workItem from="1706147357166" duration="6057000" />
+      <workItem from="1706147357166" duration="6767000" />
     </task>
     <servers />
   </component>
